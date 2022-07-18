@@ -1,0 +1,6 @@
+make.exe --dry-run --keep-going --print-directory
+make.exe: Entering directory `c:/Users/ayokupoluyi/Desktop/Personal Dev/STM32/projects/Blink'
+make.exe: Nothing to be done for `all'.
+ 
+make.exe: Leaving directory `c:/Users/ayokupoluyi/Desktop/Personal Dev/STM32/projects/Blink'
+ 

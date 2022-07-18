@@ -1,0 +1,1334 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+ 
+
+# Make data base, printed on Mon Jul 18 14:26:06 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+CARBON_MEM_DISABLE = 1
+# makefile (from `makefile', line 139)
+LDSCRIPT = STM32F411CEUx_FLASH.ld
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# makefile (from `makefile', line 16)
+TARGET = Blink
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+PLATFORMIO_IDE = 2.5.0
+# makefile (from `makefile', line 101)
+AS_DEFS = 
+# makef 
+ile (from `makefile', line 110)
+AS_INCLUDES = 
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := c:/Users/ayokupoluyi/Desktop/Personal Dev/STM32/projects/Blink
+# default
+SHELL := sh.exe
+# makefile (from `makefile', line 82)
+BIN = $(CP) -O binary -S
+# environment
+WINDIR = C:\Windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# envi 
+ronment
+FP_NO_HOST_CHECK = NO
+# makefile (from `makefile', line 79)
+SZ = $(PREFIX)size
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
+PYCHARM COMMUNITY EDITION = C:\Program Files\JetBrains\PyCharm Community Edition 2019.3.1\bin;
+# makefile (from `makefile', line 132)
+CFLAGS = $(MCU) $(C_DEFS) $(C_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"$(@:%.o=%.d)"
+# environment
+PUBLIC = C:\Users\Public
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from `build/system_stm32f4xx.d', line 1)
+MAKEFILE_LIST :=  makefile build/main.d build/startup_stm32f411xe.d build/stm32f4xx_hal.d build/stm32f4xx_hal_cortex.d build/stm32f4xx_hal_dma.d build/stm32f4xx_hal_dma_ex.d build/stm32f4xx_hal_exti.d build/stm32f4xx_hal_flash.d build/stm32f4xx_hal_flash_ex.d build/stm32f4xx_hal_flash_ramfunc.d build/stm32f4xx_hal_gpio.d build/stm32f4xx_hal_msp.d build/stm32f4xx_hal_pwr.d build/stm32f4xx_hal_pwr_ex.d build/stm32f4xx_hal_rcc.d build/stm32f4xx_hal_rcc_ex.d build/stm32f4xx_hal_tim.d build/stm32f4xx_hal_tim_ex.d build/stm32f4xx_it.d build/system_stm32f4xx.d
+# makefile (from `makefile', line 78)
+CP = $(PREFIX)objcopy
+# makefile (from `makefile', line 23)
+DEBUG = 1
+# environment
+TMP = C:\TEMP
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# makefile (from `makefile', line 77)
+AS = $(PREFIX)gcc -x assembler-with-cpp
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+VS100COMNTOOLS = C:\Program Files (x86)\Microsoft  
+Visual Studio 10.0\Common7\Tools\
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-46e130c2-545e-4568-aba3-625b8dbf3057-sock
+# environment
+VSCODE_CWD = C:\Windows\system32
+# environment
+NO_PROXY = 127.0.0.1
+# environment
+VS110COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\ayokupoluyi
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+DOKANLIBRARY1 = C:\Program Files\Dokan\Dokan Library-1.2.0\
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 4
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from `makefile', line 144)
+LDFLAGS = $(MCU) -specs=nano.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives
+# automatic
+%F = $( 
+notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_5464_BPBDLNMNDKEJRIWA
+# makefile (from `makefile', line 60)
+ASM_SOURCES = startup_stm32f411xe.s
+# makefile (from `makefile', line 25)
+OPT = -Og
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = JESUTOFUNMIKUPO
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = ayokupoluyi
+# environment
+KMP_DUPLICATE_LIB_OK = TRUE
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = C:\VULCAN_HOME
+# environment
+PROG27B48B2C050 = 1
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\ayokupoluyi\AppData\Roaming\Code\CachedData\4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\MicrosoftAccount
+# makefile (from `makefile', line 67)
+PREFIX = arm-none-eabi-
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = JESUTOFUNMIKUPO
+# makefile (from `makefile', line 104)
+C_DEFS = -DUSE_HAL_DRIVER -DSTM32F411xE
+# makefile (from `makefile', line 97)
+MCU = $(CPU) -mthumb $(FPU) $(FLOAT-ABI)
+# environment
+PLATFORMIO_PATH = C:\Users\ayokupoluyi\.platformio\penv\Scripts;C:\Users\ayokupoluyi\.platformio\penv;C:\Users\ayokupoluyi\.platformio\python3;C:\Program Files\Java\jdk-13.0.1\bin;C:\Program Files\MATLAB\R2016a\runtime\win64;C:\Program Files\MATLAB\R2016a\bin;C:\Program Files\MATLAB\R2016a\polyspace\bin;C:\Users\ayokupoluyi\AppData\Local\Programs\Python\Python39;C:\Users\ayokupoluyi\AppData\Local\Programs\Python\Python39\Scripts;C:\Program Files (x86)\Microchip\xc8\v2.10\bin;C:\Program Files (x86)\Microchip\MPLAB C32 Suite\bin;C:\Program Files\Microchip\xc8\v2.31\bin;C:\Program Files\Git\cmd;C:\Users\ayokupoluyi\AppData\Roaming\Python\Python39\Scripts;C:\SDK\flutter\bin;C:\Windows\System32;C:\Program Files\Java\jdk-13.0.1\bin;C:\Users\ayokupoluyi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ayokupoluyi\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\ayokupoluyi\AppData\Roaming\Python\Python39\Scripts;C:\SDK\flutter\bin;C:\Users\ayokupoluyi\Desktop\Personal Dev\STM32\tools\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin;C:\Users\ayokupoluyi\Desktop\Personal Dev\STM32\tools\OpenOCD-20211118-0.11.0\bin;C:\Users\ayokupoluyi\Desktop\Personal Dev\STM32\tools\make-3.81\bin;C:\Windows\System32;C:\Program Files\Java\jdk-13.0.1\bin;C:\Program Files\MATLAB\R2016a\runtime\win64;C:\Program Files\MATLAB\R2016a\bin;C:\Program Files\MATLAB\R2016a\polyspace\bin;C:\Users\ayokupoluyi\AppData\Local\Programs\Python\Python39;C:\Users\ayokupoluyi\AppData\Local\Programs\Python\Python39\Scripts;C:\Program Files (x86)\Microchip\xc8\v2.10\bin;C:\Program Files (x86)\Microchip\MPLAB C32 Suite\bin;C:\Program Files\Microchip\xc8\v2.31\bin;C:\Program Files\Git\cmd;C:\Users\ayokupoluyi\AppData\Roaming\Python\Python39\Scripts;C:\SDK\flutter\bin;C:\Windows\System32;C:\Program Files\Java\jdk-13.0.1\bin;C:\Users\ayokupoluyi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ayokupoluyi\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\ayokupoluyi\AppData\Roaming\Python\Python39\Scripts;C:\SDK\flutter\bin;C:\Users\ayokupoluyi\Desktop\Personal Dev\STM32\tools\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin;C:\Users\ayokupoluyi\Desktop\Personal Dev\STM32\tools\OpenOCD-20211118-0.11.0\bin;C:\Users\ayokupoluyi\Desktop\Personal Dev\STM32\tools\make-3.81\bin;C:\Windows\System32
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+PATH = C:\Program Files\Java\jdk-13.0.1\bin;C:\Program Files\MATLAB\R2016a\runtime\win64;C:\Program Files\MATLAB\R2016a\bin;C:\Program Files\MATLAB\R2016a\polyspace\bin;C:\Users\ayokupoluyi\AppData\Local\Programs\Python\Python39;C:\Users\ayokupoluyi\AppData\Local\Programs\Python\Python39\Scripts;C:\Program Files (x86)\Microchip\xc8\v2.10\bin;C:\Program Files (x86)\Microchip\MPLAB C32 Suite\bin;C:\Program Files\Microchip\xc8\v2.31\bin;C:\Program Files\Git\cmd;C:\Users\ayokupoluyi\AppData\Roaming\Python\Python39\Scripts;C:\SDK\flutter\bin;C:\Windows\System32;C:\Program Files\Java\jdk-13.0.1\bin;C:\Users\ayokupoluyi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ayokupoluyi\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\ayokupoluyi\AppData\Roaming\Python\Python39\Scripts;C:\SDK\flutter\bin;C:\Users\ayokupoluyi\Desktop\Personal Dev\STM32\tools\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin;C:\Users\ayokupol 
+uyi\Desktop\Personal Dev\STM32\tools\OpenOCD-20211118-0.11.0\bin;C:\Users\ayokupoluyi\Desktop\Personal Dev\STM32\tools\make-3.81\bin;C:\Windows\System32
+# makefile (from `makefile', line 94)
+FLOAT-ABI = -mfloat-abi=hard
+# makefile (from `makefile', line 81)
+HEX = $(CP) -O ihex
+# makefile (from `makefile', line 76)
+CC = $(PREFIX)gcc
+# environment
+JAVA_HOME = C:\Program Files\Java
+# makefile (from `makefile', line 32)
+BUILD_DIR = build
+# makefile (from `makefile', line 122)
+ASFLAGS = $(MCU) $(AS_DEFS) $(AS_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections
+# default
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := all
+# environment
+C_EM64T_REDIST11 = C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\;C:\Users\ayokupoluyi\AppData\Local\Programs\Python\Python39;%ARMGCC_DIR%;C:\Users\ayokupoluyi\Desktop\Personal Dev\STM32\tools\make-3.81\bin;C:\Users\ayokupoluyi\Desktop\Personal Dev\STM32\tools\OpenOCD-20211118-0.11.0\bin
+# environment
+DOKANLIBRARY1_LIBRARYPATH_X64 = C:\Program Files\Dokan\Dokan L 
+ibrary-1.2.0\lib\
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from `makefile', line 88)
+CPU = -mcpu=cortex-m4
+# makefile (from `makefile', line 91)
+FPU = -mfpu=fpv4-sp-d16
+# environment
+LOCALAPPDATA = C:\Users\ayokupoluyi\AppData\Local
+# environment
+PSMODULEPATH = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile (from `makefile', line 143)
+LIBDIR = 
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\e68e04ca2b3c1989c1bb06030dc689e1-1.68.0-main-sock
+# environment
+HOMEPATH = \Users\ayokupoluyi
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+SYSTEMROOT = C:\Windows
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\ayokupoluyi\AppData\Roaming
+# environment
+TEMP = C:\TEMP
+# makefile (from `makefile', line 113)
+C_INCLUDES = -ICore/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -IDrivers/CMSIS/Include
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# environment
+DOKANLIBRARY1_LIBRARYPATH_X86 = C:\Program Files\Dokan\Dokan 
+ Library-1.2.0\x86\lib\
+# default
+MAKEFILES := 
+# environment
+ARMGCC_DIR = C:\Users\ayokupoluyi\Desktop\Personal Dev\STM32\tools\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin
+# automatic
+<F = $(notdir $<)
+# environment
+PLATFORMIO_CALLER = vscode
+# environment
+MKL_SERIAL = YES
+# environment
+LC_ALL = C
+# makefile (from `makefile', line 142)
+LIBS = -lc -lm -lnosys 
+# automatic
+^F = $(notdir $^)
+# makefile (from `makefile', line 38)
+C_SOURCES = Core/Src/main.c Core/Src/stm32f4xx_it.c Core/Src/stm32f4xx_hal_msp.c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c Core/Src/system_stm32f4xx.c  
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 2a07
+# environment
+MAKELEVEL := 0
+# makefile (from `makefile', line 157)
+OBJECTS = $(addprefix $(BUILD_DIR)/,$(notdir $(C_SOURCES:.c=.o))) $(addprefix $(BUILD_DIR)/,$(notdir $(ASM_SOURCES:.s=.o)))
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+VSCODE_PID = 5464
+# environment
+USERDOMAIN_ROAMINGPROFILE = JESUTOFUNMIKUPO
+# variable set hash-table stats:
+# Load=132/1024=13%, Rehash=0, Collisions=17/228=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# C:\SDK\flutter\bin (key 
+ C:/SDK/flutter/bin, mtime 1658096504): 9 files, no impossibilities.
+# C:\Users\ayokupoluyi\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/ayokupoluyi/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1655123231): 4 files, no impossibilities.
+# C:\Users\ayokupoluyi\AppData\Roaming\Python\Python39\Scripts (key C:/Users/ayokupoluyi/AppData/Roaming/Python/Python39/Scripts, mtime 1648117858): 19 files, no impossibilities.
+# C:\Program Files\Java\jdk-13.0.1\bin (key C:/Program Files/Java/jdk-13.0.1/bin, mtime 1597608434): 126 files, no impossibilities.
+# C:\Users\ayokupoluyi\Desktop\Personal Dev\STM32\tools\make-3.81\bin (key C:/Users/ayokupoluyi/Desktop/Personal Dev/STM32/tools/make-3.81/bin, mtime 1164412636): 5 files, no impossibilities.
+# . (key c:/Users/ayokupoluyi/Desktop/Personal Dev/STM32/projects/Blink, mtime 1658150526): 11 files, no impossibilities.
+# C:\Program Files\MATLAB\R2016a\runtime\win64 (key C:/Program Files/MATLAB/R2016a/runtime/win64, mtime 1623875338): 7 files, no impossibiliti 
+es.
+# C:\Program Files\Microchip\xc8\v2.31\bin (key C:/Program Files/Microchip/xc8/v2.31/bin, mtime 1638780335): 11 files, no impossibilities.
+# Core/Src (key c:/Users/ayokupoluyi/Desktop/Personal Dev/STM32/projects/Blink/Core/Src, mtime 1658149609): 6 files, no impossibilities.
+# C:\Users\ayokupoluyi\AppData\Local\Programs\Python\Python39 (key C:/Users/ayokupoluyi/AppData/Local/Programs/Python/Python39, mtime 1648118236): 20 files, no impossibilities.
+# C:\Program Files (x86)\Microchip\xc8\v2.10\bin (key C:/Program Files (x86)/Microchip/xc8/v2.10/bin, mtime 1631297201): 11 files, no impossibilities.
+# build (key c:/Users/ayokupoluyi/Desktop/Personal Dev/STM32/projects/Blink/build, mtime 1658150722): 65 files, no impossibilities.
+# C:\Users\ayokupoluyi\Desktop\Personal Dev\STM32\tools\OpenOCD-20211118-0.11.0\bin (key C:/Users/ayokupoluyi/Desktop/Personal Dev/STM32/tools/OpenOCD-20211118-0.11.0/bin, mtime 1637274187): 7 files, no impossibilities.
+# Drivers/STM32F4xx_HAL_Driver/Src (key c:/Users/ayokupoluyi/Des 
+ktop/Personal Dev/STM32/projects/Blink/Drivers/STM32F4xx_HAL_Driver/Src, mtime 1658149605): 96 files, no impossibilities.
+# C:\Users\ayokupoluyi\AppData\Local\Programs\Python\Python39\Scripts (key C:/Users/ayokupoluyi/AppData/Local/Programs/Python/Python39/Scripts, mtime 1648118310): 11 files, no impossibilities.
+# C:\Program Files\MATLAB\R2016a\polyspace\bin (key C:/Program Files/MATLAB/R2016a/polyspace/bin, mtime 1623875431): 43 files, no impossibilities.
+# C:\Program Files\MATLAB\R2016a\bin (key C:/Program Files/MATLAB/R2016a/bin, mtime 1623875295): 20 files, no impossibilities.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1640594846): 8 files, no impossibilities.
+# C:\Windows\System32 (key C:/Windows/System32, mtime 1658095250): 3334 files, no impossibilities.
+# C:\Program Files (x86)\Microchip\MPLAB C32 Suite\bin (key C:/Program Files (x86)/Microchip/MPLAB C32 Suite/bin, mtime 1640862674): 25 files, no impossibilities.
+# C:\Users\ayokupoluyi\Desktop\Personal Dev\STM32\tools\gcc-arm-11. 
+2-2022.02-mingw-w64-i686-arm-none-eabi\bin (key C:/Users/ayokupoluyi/Desktop/Personal Dev/STM32/tools/gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi/bin, mtime 1645688018): 33 files, no impossibilities.
+
+# 3871 files, no impossibilities in 21 directories.
+
+# Implicit Rules
+
+build/%.o: %.c Makefile | build
+#  commands to execute (from `makefile', line 161):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+build/%.o: %.s Makefile | build
+#  commands to execute (from `makefile', line 164):
+	$(AS) -c $(CFLAGS) $< -o $@
+	
+
+build/%.hex: build/%.elf | build
+#  commands to execute (from `makefile', line 171):
+	$(HEX) $< $@
+	
+
+build/%.bin: build/%.elf | build
+#  commands to execute (from `makefile', line 174):
+	$(BIN) $< $@	
+	
+
+# 4 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+Core/Src/stm32f4xx_hal_msp.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 14:06:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# 
+ Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:59:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/stm32f4xx_hal_pwr_ex.o: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c makefile Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ha 
+l_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `stm32f4xx_hal_pwr_ex'
+#  Last modified 2022-07-18 14:25:20
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 161):
+	$(CC)  
+-c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+Core/Inc/stm32f4xx_it.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 14:06:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:59:35
+#  File has been updated.
+#  Successfully updated.
+# var 
+iable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+build/stm32f4xx_hal_exti.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 14:25:21
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:59:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+build/stm32f4xx_hal_flash_ramfunc.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 14:25:18
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:
+#  Implicit 
+ rule search has been done.
+#  Last modified 2022-07-18 12:45:51
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/main.o: Core/Src/main.c makefile Core/Src/main.c Core/Inc/main.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `main'
+#  Last modified 2022-07-18 14:25:15
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 161):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+build/stm32f4xx_hal_cortex.o: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c makefile Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `stm32f4xx_hal_cortex'
+#  Last modified 2022-07-18 14:25:20
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, C 
+ollisions=0/0=0%
+#  commands to execute (from `makefile', line 161):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:59:35
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:59:36
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:59:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:
+# 
+  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:59:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+all: build/Blink.elf build/Blink.hex build/Blink.bin
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/Blink.bin: build/Blink.elf | buil 
+d
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `Blink'
+#  Last modified 2022-07-18 14:25:22
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 174):
+	$(BIN) $< $@	
+	
+
+build/stm32f4xx_hal_flash_ex.o: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c makefile Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `stm32f4xx_hal_flash_ex'
+#  Last modified 2022-07-18 14:25:18
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', 
+ line 161):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+# Not a target:
+build/stm32f4xx_it.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 14:25:15
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/startup_stm32f411xe.o: startup_stm32f411xe.s makefile startup_stm32f411xe.s | build
+#  Implicit rule search ha 
+s been done.
+#  Implicit/static pattern stem: `startup_stm32f411xe'
+#  Last modified 2022-07-18 14:25:21
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 164):
+	$(AS) -c $(CFLAGS) $< -o $@
+	
+
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:59:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:59:36
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/stm32f4xx_hal_dma_ex.o: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c makefile Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `stm32f4xx_hal_dma_ex'
+#  Last modified 2022-07-18 14:25:19
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute 
+ (from `makefile', line 161):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:59:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/stm32f4xx_hal_rcc_ex.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 14:25:17
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/stm32f4xx_hal_msp.o: Core/Src/stm32f4xx_hal_msp.c makefile Core/Src/stm32f4xx_hal_msp.c Core/Inc/main.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/ 
+stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `stm32f4xx_hal_msp'
+#  Last modified 2022-07-18 14:25:15
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 161):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:59:35
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:59:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/Blink.hex: build/Blink.elf | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `Blink'
+#  Last modified 2022-07-18 14:25:22
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 171):
+	$(HEX) $< $@
+	
+
+build/stm32f4xx_hal_gpio.o: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c makefile Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Dri 
+vers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `stm32f4xx_hal_gpio'
+#  Last modified 2022-07-18 14:25:18
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 161):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+# Not a target:
+Core/Src/stm32f4xx_it.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 14:06:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/stm32f4xx_hal.o: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c makefile Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/ 
+STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `stm32f4xx_hal'
+#  Last modified 2022-07-18 14:25:21
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 161):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:59:35
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:59:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/stm32f4xx_hal_rcc.o: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c makefile Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_p 
+wr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `stm32f4xx_hal_rcc'
+#  Last modified 2022-07-18 14:25:16
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 161):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:59:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:59:35
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/stm32f4xx_hal_exti.o: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c makefile Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driv 
+er/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `stm32f4xx_hal_exti'
+#  Last modified 2022-07-18 14:25:21
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 161):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 14:25:06
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build:
+#  Implicit  
+rule search has not been done.
+#  Last modified 2022-07-18 14:25:22
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `makefile', line 177):
+	mkdir $@		
+	
+
+build/stm32f4xx_hal_flash_ramfunc.o: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c makefile Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `stm32f4xx_hal_flash_ramfunc'
+#  Last modified 2022-07-18 14:25:18
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 161):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+# Not a target 
+:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:59:35
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:59:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collis 
+ions=0/0=0%
+
+Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:59:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:59:34
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0 
+/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:59:36
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/stm32f4xx_it.o: Core/Src/stm32f4xx_it.c makefile Core/Src/stm32f4xx_it.c Core/Inc/main.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h Core/Inc/stm32f4xx_it.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `stm32f4xx_it'
+#  Last modified 2022-07-18 14:25:15
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 161):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BU 
+ILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:59:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+build/stm32f4xx_hal_tim.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 14:25:15
+#  File has been updated.
+#  Su 
+ccessfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Core/Inc/stm32f4xx_hal_conf.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 14:06:39
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:59:35
+#  File has been updated.
+#  Su 
+ccessfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:45:51
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Drivers/CMSIS/Include/mpu_armv7.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:46:16
+#  File has been updated.
+#  Success 
+fully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:59:35
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/stm32f4xx_hal_rcc_ex.o: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c makefile Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver 
+/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `stm32f4xx_hal_rcc_ex'
+#  Last modified 2022-07-18 14:25:17
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 161):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+# Not a target:
+build/stm32f4xx_hal_pwr.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 14:25:20
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/system_stm32f4xx.o: Core/Src/system_stm32f4xx.c makefile Core/Src/system_stm32f4xx.c Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM3 
+2F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `system_stm32f4xx'
+#  Last modified 2022-07-18 14:25:21
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 161):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/stm32f4xx_hal_tim.o: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c makefile Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `stm32f4xx_hal_tim'
+#  Last modified 2022-07-18 14:25:15
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 161):
+	$(CC) -c $(CFLAGS) -Wa,-a 
+,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+Drivers/CMSIS/Include/core_cm4.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:46:16
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+build/stm32f4xx_hal_flash.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 14:25:17
+#  File has been updated.
+#  Successf 
+ully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:59:36
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+build/stm32f4xx_hal_dma.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  L 
+ast modified 2022-07-18 14:25:19
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+build/stm32f4xx_hal_tim_ex.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 14:25:16
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Core/Inc/main.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 14:06:39
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 183):
+	-rm -fR $(BUILD_DIR)
+	
+
+# Not a target:
+Core/Src/system_stm32f4xx.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:45:51
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Drivers/CMSIS/Include/cmsis_version.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:46:16
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/Blink.elf: build/main.o build/stm32f4xx_it.o build/stm32f4xx_hal_msp.o build/stm32f4xx_hal_tim.o build/stm32f4xx_hal_tim_ex.o build/stm32f4xx_hal_rcc.o  
+build/stm32f4xx_hal_rcc_ex.o build/stm32f4xx_hal_flash.o build/stm32f4xx_hal_flash_ex.o build/stm32f4xx_hal_flash_ramfunc.o build/stm32f4xx_hal_gpio.o build/stm32f4xx_hal_dma_ex.o build/stm32f4xx_hal_dma.o build/stm32f4xx_hal_pwr.o build/stm32f4xx_hal_pwr_ex.o build/stm32f4xx_hal_cortex.o build/stm32f4xx_hal.o build/stm32f4xx_hal_exti.o build/system_stm32f4xx.o build/startup_stm32f411xe.o makefile
+#  Implicit rule search has not been done.
+#  Last modified 2022-07-18 14:25:22
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 167):
+	$(CC) $(OBJECTS) $(LDFLAGS) -o $@
+	$(SZ) $@
+	
+
+# Not a target:
+build/stm32f4xx_hal_pwr_ex.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 14:25:20
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Drivers/ 
+STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:59:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Drivers/CMSIS/Include/cmsis_gcc.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:46:16
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+build/main.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 14:25:15
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+build/stm32f4xx_hal_cortex.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 14:25:20
+#  File has been updated.
+#  Successfully updated.
+# variable se 
+t hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/stm32f4xx_hal_pwr.o: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c makefile Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `stm32f4xx_hal_pwr'
+#  Last modified 2022-07-18 14:25:20
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 161):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+flash: all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 189):
+	op 
+enocd -f interface/stlink.cfg -f target/stm32f4x.cfg -c "program $(BUILD_DIR)/$(TARGET).elf verify reset exit"
+	
+
+# Not a target:
+build/stm32f4xx_hal_flash_ex.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 14:25:17
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:59:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+build/startup_stm32f411xe.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 14:25:21
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+Drivers/STM32F4xx_ 
+HAL_Driver/Src/stm32f4xx_hal_tim.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:59:36
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+build/stm32f4xx_hal_dma_ex.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 14:25:18
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/ 
+32=0%, Rehash=0, Collisions=0/0=0%
+
+Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:45:51
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+Core/Src/main.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 14:23:22
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash= 
+0, Collisions=0/0=0%
+
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:59:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+build/system_stm32f4xx.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 14:25:21
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+startup_stm32f411xe.s:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:45:51
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/stm32f4xx_hal_flash.o: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c makefile Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32 
+f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `stm32f4xx_hal_flash'
+#  Last modified 2022-07-18 14:25:17
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 161):
+	 
+$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+Drivers/CMSIS/Include/cmsis_compiler.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:46:16
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+build/stm32f4xx_hal_msp.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 14:25:15
+#  File  
+has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+build/stm32f4xx_hal_gpio.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 14:25:18
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:59:36
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/stm32f4xx_hal_dma.o: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c makefile Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr 
+.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `stm32f4xx_hal_dma'
+#  Last modified 2022-07-18 14:25:19
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 161):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+build/stm32f4xx_hal_tim_ex.o: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c makefile Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `stm32f4xx_hal_tim_ex'
+#  Last modified 2022-07-18 14:25:16
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 161):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+# Not a target:
+build/stm32f4xx_hal.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 14:25:20
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0 
+, Collisions=0/0=0%
+
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 12:59:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+build/stm32f4xx_hal_rcc.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 14:25:16
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=97/1024=9%, Rehash=0, Collisions=39/1421=3%
+# VPATH Search Paths
+
+vpath %.c Core/Src;Drivers/STM32F4xx_HAL_Driver/Src
+
+# 1 `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 21
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 3554 / max = 3554 / min = 3554 / avg = 3554
+
+# Finished Make data base on Mon Jul 18 14:26:06 2022
+
+ 
